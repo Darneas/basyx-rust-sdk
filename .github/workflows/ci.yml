@@ -1,8 +1,6 @@
-<!--
-SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
-
-SPDX-License-Identifier: CC0-1.0
--->
+# SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
+#
+# SPDX-License-Identifier: EPL-2.0
 
 # This action builds* all the pushes to main.
 # Additionally it builds* for each PR.
@@ -17,6 +15,12 @@ on:
 name: Run CI
 
 jobs:
+  compliance:
+    name: Compliance
+    steps:
+      - name: REUSE Compliance Check
+        uses: fsfe/reuse-action@v1
+
   check:
     name: Check
     strategy:
