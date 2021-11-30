@@ -30,13 +30,15 @@ jobs:
             toolchain: stable
             override: true
 
-      - name: Publish to crates.io
-        run: |
-          cargo install cargo-workspaces
-          cargo workspaces publish --from-git --token ${{ secrets.CRATES_IO_TOKEN }} custom ${{ steps.branch_name.outputs.SOURCE_TAG }}
+      #- name: Publish to crates.io
+      #  run: |
+      #    cargo install cargo-workspaces
+      #    cargo workspaces publish --from-git --token ${{ secrets.CRATES_IO_TOKEN }} custom ${{ steps.branch_name.outputs.SOURCE_TAG }}
 
       - name: Create a GitHub release
         uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ steps.branch_name.outputs.SOURCE_TAG }}
           release_name: Release ${{ steps.branch_name.outputs.SOURCE_TAG }}
