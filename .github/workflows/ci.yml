@@ -17,6 +17,7 @@ name: Run CI
 jobs:
   compliance:
     name: Compliance
+    runs-on: ubuntu-latest
     steps:
       - name: REUSE Compliance Check
         uses: fsfe/reuse-action@v1
