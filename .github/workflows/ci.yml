@@ -19,6 +19,8 @@ jobs:
     name: Compliance
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2.3.4
       - name: REUSE Compliance Check
         uses: fsfe/reuse-action@v1
 
