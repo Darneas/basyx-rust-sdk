@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
+//
+// SPDX-License-Identifier: EPL-2.0
+
 use crate::{
     administrative_information::AdministrativeInformation, category::Category,
     embedded_data_specification::EmbeddedDataSpecification, identifier::Identifier,

@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
+
+SPDX-License-Identifier: EPL-2.0
+-->
+
 # Contributing to Eclipse Basyx
 
 Thanks for your interest in this project.

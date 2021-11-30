@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
+//
+// SPDX-License-Identifier: EPL-2.0
+
 use basyx_rs::prelude::*;
 use color_eyre::eyre::Result;
 use std::io::Write;

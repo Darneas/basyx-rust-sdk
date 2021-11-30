@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
+//
+// SPDX-License-Identifier: EPL-2.0
+
 use super::OperationVariable;
 use super::SubmodelElement;
 use crate::model_type::{ModelType, ModelTypeName};
