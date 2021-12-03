@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2021 Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>
+// SPDX-FileCopyrightText: 2021 Fraunhofer Institute for Experimental Software Engineering IESE
 //
 // SPDX-License-Identifier: EPL-2.0
 
@@ -17,7 +17,7 @@ use thiserror::Error;
 #[derive(Parser)]
 #[clap(
     version = "0.1",
-    author = "Andreas Schmidt <andreas.schmidt@iese.fraunhofer.de>"
+    author = "Fraunhofer Institute for Experimental Software Engineering IESE"
 )]
 struct Opts {
     #[clap(parse(from_os_str))]
