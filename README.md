@@ -10,6 +10,7 @@ SPDX-License-Identifier: EPL-2.0
 [![Crates.io](https://img.shields.io/crates/v/basyx-rs.svg)](https://crates.io/crates/basyx-rs)
 [![Documentation](https://docs.rs/basyx-rs/badge.svg)](https://docs.rs/basyx-rs)
 [![Minimum Stable Rust Version](https://img.shields.io/badge/Rust-1.54.0%2B-blue?color=fc8d62&logo=rust)](https://rustup.rs/)
+[![ClearlyDefined Score](https://img.shields.io/clearlydefined/score/crate/cratesio/-/basyx-rs/0.1.0?label=ClearlyDefined%20Score)](https://clearlydefined.io/definitions/crate/cratesio/-/basyx-rs/0.1.0)
 [![Dependency Status](https://deps.rs/repo/github/eclipse-basyx/basyx-rust-sdk/status.svg)](https://deps.rs/repo/github/eclipse-basyx/basyx-rust-sdk)
 [![Build Status](https://img.shields.io/github/workflow/status/eclipse-basyx/basyx-rust-sdk/Run%20CI/main)](https://github.com)
 [![unsafe forbidden](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
